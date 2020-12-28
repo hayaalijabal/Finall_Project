@@ -7,8 +7,10 @@ use Faker\Generator as Faker;
 
 $factory->define(\App\Cart::class, function (Faker $faker) {
     return [
-        'Code' => $faker->randomNumber(),
+        'id' => $faker->randomNumber(),
         'CategoryID' => \App\Category::all()->random(),
+        //'image' => 'carts/image/img.jpg',
+        'ProductsID' =>\App\Product::all()->random(),
         'Category' =>$faker->word,
         'Price'=> $faker->randomNumber(),
         'Count'=> $faker->randomNumber(),

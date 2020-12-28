@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060e9729-1870-447c-8e6b-27148ed710ee" name="Default Changelist" comment="" />
+    <list default="true" id="060e9729-1870-447c-8e6b-27148ed710ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/Auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/Category/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/Category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/Layout/massages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/Products/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/Products/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/User/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Dashboard/User/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/AddProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/DashboardController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/DeleteProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/EditProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ProductsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SaveEdit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/ShowProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontsiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontsiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/BoysFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BoysFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CartFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CartFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CustomerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/GirlsFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/GirlsFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/IntelligentgamesFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/IntelligentgamesFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_22_115950_create_girls_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_22_115950_create_girls_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_30_184338_create_boys_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_30_184338_create_boys_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_30_192856_create_inelligentgames_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_30_192856_create_inelligentgames_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_30_195352_create_customers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_30_200702_create_carts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_30_200702_create_carts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CartSeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CartSeed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CustomerSeed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Dashboard/Layout/Master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Dashboard/Layout/Master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Dashboard/Layout/Menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Dashboard/Layout/Menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Dashboard/Products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Dashboard/Products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Frontsite/Layout/Menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Frontsite/Layout/Menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api-v1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +61,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,9 +171,25 @@
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kHFlNLdZGwEfwOuMQXwEMUFgLC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -127,11 +197,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/database/factories/productFactory.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes/api" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\routes\api" />
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\resources\views\Dashboard\Category" />
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\resources\views\Dashboard\Products" />
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\resources\views\Dashboard\Categories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\app\Http\Controllers\API" />
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\routes" />
+      <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\routes\api" />
       <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\app\Http\Controllers\Dashboard" />
       <recent name="E:\my files\Level 4\مواضيع في الويب\FinalProject\resources\views\Frontsite" />
     </key>
@@ -159,7 +239,10 @@
       <workItem from="1605957237939" duration="15510000" />
       <workItem from="1606032182545" duration="16462000" />
       <workItem from="1606760537692" duration="3137000" />
-      <workItem from="1606764488471" duration="5037000" />
+      <workItem from="1606764488471" duration="5633000" />
+      <workItem from="1607875526468" duration="5851000" />
+      <workItem from="1608649258148" duration="15077000" />
+      <workItem from="1608880832284" duration="97331000" />
     </task>
     <servers />
   </component>
@@ -171,18 +254,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="445" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1605860687494" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606048250486">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609146163175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606048250486" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606768982395">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1609146163175" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1608984873275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606768982395" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1606046563088">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608984873275" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1609004899233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606046563088" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1609004899233" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1609005616992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1609005616992" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1608923593944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608923593944" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1609081391052">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1609081391052" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

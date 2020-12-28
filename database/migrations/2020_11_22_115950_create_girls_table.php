@@ -15,9 +15,8 @@ class CreateGirlsTable extends Migration
     {
         Schema::create('girls', function (Blueprint $table) {
 
-            $table->id('Code');
+            $table->id();
             $table->unsignedBigInteger('CategoryID');
-            $table->integer('Price');
             $table->string('Description');
             $table->timestamps();
 

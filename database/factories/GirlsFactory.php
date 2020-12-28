@@ -7,9 +7,9 @@ use Faker\Generator as Faker;
 
 $factory->define(\App\Girls::class, function (Faker $faker) {
     return [
-                'Code' => $faker->randomNumber(),
+                'id' => $faker->randomNumber(),
                 'CategoryID' => \App\Category::all()->random(),
-                'Price' =>$faker->randomNumber(),
+                //'image' => 'girls/image/img.jpg',
                 'Description'=> $faker->word,
 
 

@@ -8,6 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(\App\Category::class, function (Faker $faker) {
     return [
         'id' => $faker->randomNumber(),
-        'Name' => $faker->word,
+        //'image' => 'categories/image/img.jpg',
+        'Name' => $faker->name,
     ];
 });

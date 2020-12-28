@@ -14,9 +14,8 @@ class CreateInelligentgamesTable extends Migration
     public function up()
     {
         Schema::create('inelligentgames', function (Blueprint $table) {
-            $table->id('Code');
+            $table->id();
             $table->unsignedBigInteger('CategoryID');
-            $table->integer('Price');
             $table->string('Description');
             $table->timestamps();
 

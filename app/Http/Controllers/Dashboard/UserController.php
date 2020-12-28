@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use App\user;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class UserController extends Controller
 {
@@ -15,7 +16,9 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $user = User::orderBy('created_at','desc')->paginate(5);
+        return view('dashboard.User.index',compact('user'));
+
     }
 
     /**
@@ -25,7 +28,8 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        $user = User::all();
+        return view('dashboard.User.create',compact('user'));
     }
 
     /**
@@ -36,7 +40,20 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required',
+            'email'=>'required|email',
+            'password'=>'required',
+        ]);
+
+        $user = new User();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = $request->password;
+        $user->remember_token = Str::random(10);
+        $user->email_verified_at= now();
+        $user->save();
+        return redirect()->route('dashboard.User.index')->with('success','User Created Successfuly');
     }
 
     /**
@@ -58,7 +75,8 @@ class UserController extends Controller
      */
     public function edit(user $user)
     {
-        //
+        $user = User::all();
+        return view('dashboard.User.edit',compact('user'));
     }
 
     /**
@@ -70,7 +88,13 @@ class UserController extends Controller
      */
     public function update(Request $request, user $user)
     {
-        //
+        $user->name = $request->Name;
+        $user->email = $request->Email;
+        $user->password = $request->Password;
+        $user->remember_token = Str::random(10);
+        $user->email_verified_at= now();
+        $user->save();
+        return redirect()->route('dashboard.User.index')->with('success','User Created Successfuly');
     }
 
     /**
@@ -81,6 +105,7 @@ class UserController extends Controller
      */
     public function destroy(user $user)
     {
-        //
+        $user->delete();
+        return redirect()->route('dashboard.User.index');
     }
 }

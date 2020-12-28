@@ -23,4 +23,6 @@ class FrontsiteController extends Controller
     public function IntelligentGames(){
         return view('Frontsite.Intelligent games');
     }
+
+
 }
